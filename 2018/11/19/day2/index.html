@@ -1,0 +1,390 @@
+
+
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <title>PEP8代码风格指南 | 林肖的技术专栏</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="baidu-site-verification" content="1ZsVVOmjoT">
+    <meta name="description" content="###一.Python常用的快捷键  Ctrl + s  - 保存 Ctrl + /  -注释和取消注释 Ctrl + b -sublime中的编译执行 Ctrl + c -复制，拷贝 Ctrl + v -粘贴 Ctrl + a -全选 Ctrl + z -撤销 Ctrl + shift + z -反撤销 Ctrl  + x -剪切 Ctrl + f - 查找 Ctrl + r -运行收入 按住C">
+<meta name="keywords" content="Python,PEP8">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PEP8代码风格指南">
+<meta property="og:url" content="http://yoursite.com/2018/11/19/day2/index.html">
+<meta property="og:site_name" content="林肖的技术专栏">
+<meta property="og:description" content="###一.Python常用的快捷键  Ctrl + s  - 保存 Ctrl + /  -注释和取消注释 Ctrl + b -sublime中的编译执行 Ctrl + c -复制，拷贝 Ctrl + v -粘贴 Ctrl + a -全选 Ctrl + z -撤销 Ctrl + shift + z -反撤销 Ctrl  + x -剪切 Ctrl + f - 查找 Ctrl + r -运行收入 按住C">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-04-13T06:17:18.710Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="PEP8代码风格指南">
+<meta name="twitter:description" content="###一.Python常用的快捷键  Ctrl + s  - 保存 Ctrl + /  -注释和取消注释 Ctrl + b -sublime中的编译执行 Ctrl + c -复制，拷贝 Ctrl + v -粘贴 Ctrl + a -全选 Ctrl + z -撤销 Ctrl + shift + z -反撤销 Ctrl  + x -剪切 Ctrl + f - 查找 Ctrl + r -运行收入 按住C">
+    
+      <link rel="alternative" href="/atom.xml" title="林肖的技术专栏" type="application/atom+xml">
+    
+    
+      <link rel="icon" href="/css/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.css">
+
+    
+<!-- Baidu Analytics -->
+<script type="text/javascript">
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?fe2c7555911b8560db5e56121c5d5960";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!-- End Baidu Analytics -->
+
+
+    <script src="//cdn.bootcss.com/jquery/2.0.3/jquery.min.js"></script>
+</head></html>
+<body>
+<div id="container"> 
+
+    
+    <div id="wrap">
+	   
+
+<header id="header" class="hdpage">
+    
+    <div id="header-outer" class="outer">
+        
+        <div id="header-inner" class="inner">
+          <nav id="main-nav">
+            <a id="main-nav-toggle" class="nav-icon"></a>
+            
+              <a class="main-nav-link" href="/">
+                  
+                  
+
+                
+                  Home
+                </a>
+            
+              <a class="main-nav-link" href="/API">
+                  
+                  
+
+                
+                  API
+                </a>
+            
+              <a class="main-nav-link" href="/tags">
+                  
+                  
+
+                
+                  Tags
+                </a>
+            
+              <a class="main-nav-link" href="/archives">
+                  
+                  
+
+                
+                  Archives
+                </a>
+            
+              <a class="main-nav-link" href="/about">
+                  
+                  
+
+                
+                  About
+                </a>
+            
+              <a class="main-nav-link" href="https://github.com/JSLite/JSLite">
+                  
+                  
+
+                
+                  Github
+                </a>
+            
+          </nav>
+          <nav id="sub-nav">
+            
+              <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+            
+            <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+          </nav>
+          <div id="search-form-wrap">
+            <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+          </div>
+        </div>
+    </div>
+</header>
+		<div class="outer">
+		
+    <article id="post-day2" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="article-meta">
+        
+          <header class="article-header">
+            
+  
+    <a href="/2018/11/19/day2/">
+      <h1 class="article-title" itemprop="name">
+        PEP8代码风格指南
+      </h1>
+    </a>
+  
+
+
+
+          </header>
+        
+
+        <!--<a href="/2018/11/19/day2/" class="article-date">
+  <time datetime="2018-11-19T15:58:18.000Z" itemprop="datePublished">2018-11-19</time>
+</a>-->
+        <!-- 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/语言基础/">语言基础</a>
+  </div>
+ -->
+      </div>
+      <div class="article-inner">
+            
+            
+              <!--<header class="article-header">
+                
+  
+    <a href="/2018/11/19/day2/">
+      <h1 class="article-title" itemprop="name">
+        PEP8代码风格指南
+      </h1>
+    </a>
+  
+
+
+
+              </header>-->
+            
+            <div class="article-entry" itemprop="articleBody">
+              <div class="page-toc">
+                <ol class="toc"><li class="toc-item toc-level-5"><a class="toc-link" href="#Ctrl-s-保存"><span class="toc-number">1.</span> <span class="toc-text">Ctrl + s  - 保存</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Ctrl-注释和取消注释"><span class="toc-number">2.</span> <span class="toc-text">Ctrl + /  -注释和取消注释</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Ctrl-b-sublime中的编译执行"><span class="toc-number">3.</span> <span class="toc-text">Ctrl + b -sublime中的编译执行</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Ctrl-c-复制，拷贝"><span class="toc-number">4.</span> <span class="toc-text">Ctrl + c -复制，拷贝</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Ctrl-v-粘贴"><span class="toc-number">5.</span> <span class="toc-text">Ctrl + v -粘贴</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Ctrl-a-全选"><span class="toc-number">6.</span> <span class="toc-text">Ctrl + a -全选</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Ctrl-z-撤销"><span class="toc-number">7.</span> <span class="toc-text">Ctrl + z -撤销</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Ctrl-shift-z-反撤销"><span class="toc-number">8.</span> <span class="toc-text">Ctrl + shift + z -反撤销</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Ctrl-x-剪切"><span class="toc-number">9.</span> <span class="toc-text">Ctrl  + x -剪切</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Ctrl-f-查找"><span class="toc-number">10.</span> <span class="toc-text">Ctrl + f - 查找</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Ctrl-r-运行收入"><span class="toc-number">11.</span> <span class="toc-text">Ctrl + r -运行收入</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#按住Ctrl-不放点鼠标-多光标操作"><span class="toc-number">12.</span> <span class="toc-text">按住Ctrl 不放点鼠标 -多光标操作</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#按住shiftt不放点鼠标-选中制定范围"><span class="toc-number">13.</span> <span class="toc-text">按住shiftt不放点鼠标 -选中制定范围</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#注释就是代码中不参与执行的说明性文字"><span class="toc-number">14.</span> <span class="toc-text">注释就是代码中不参与执行的说明性文字</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#‘False’-‘None’-‘True’-‘and’-‘as’-‘assert’"><span class="toc-number">15.</span> <span class="toc-text">‘False’,    ‘None’,    ‘True’,      ‘and’,     ‘as’, ‘assert’,</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#‘break’-‘class’-‘continue’-‘def’-‘del’"><span class="toc-number">16.</span> <span class="toc-text">‘break’,       ‘class’,         ‘continue’,   ‘def’,    ‘del’,</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#‘elif’-‘else’-‘except’-‘finally’-‘for’"><span class="toc-number">17.</span> <span class="toc-text">‘elif’,            ‘else’,           ‘except’,      ‘finally’,   ‘for’,</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#‘from’-‘global’-‘if’-‘import’-‘in’-‘is’"><span class="toc-number">18.</span> <span class="toc-text">‘from’,         ‘global’,       ‘if’,      ‘import’, ‘in’,    ‘is’,</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#‘lambda’-‘nonlocal’-‘not’-‘or’-‘pass’"><span class="toc-number">19.</span> <span class="toc-text">‘lambda’,    ‘nonlocal’,  ‘not’,     ‘or’, ‘pass’,</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#‘raise’-‘return’-‘try’-‘while’-‘with’-‘yield’"><span class="toc-number">20.</span> <span class="toc-text">‘raise’,         ‘return’,       ‘try’,    ‘while’,     ‘with’, ‘yield’</span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#5-list-列表-，dict-字典-，tuple-元祖-，set-、迭代器、生成器、funcation等"><span class="toc-number"></span> <span class="toc-text">#####5.list(列表)，dict(字典)，tuple(元祖)，set 、迭代器、生成器、funcation等</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#注意：当程序执行到input函数的时候，程序会停下来等待输入完成后才会接着往下执行（线程阻塞）"><span class="toc-number">1.</span> <span class="toc-text">注意：当程序执行到input函数的时候，程序会停下来等待输入完成后才会接着往下执行（线程阻塞）</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#True-10-SyntaxError-can’t-assign-to-keyword"><span class="toc-number">2.</span> <span class="toc-text">True = 10  # SyntaxError: can’t assign to keyword</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#已经声明过的变量可以重新赋值，新赋的值会覆盖原来的值"><span class="toc-number"></span> <span class="toc-text">#####已经声明过的变量可以重新赋值，新赋的值会覆盖原来的值</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#3-同时声明多个变量"><span class="toc-number">1.</span> <span class="toc-text">3.同时声明多个变量</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-Python中声明变量和给变量赋值的基本原理：是先开辟空间将数据存起来，数据需要多大的内存空间就开辟多大的内存空间（动态语言）"><span class="toc-number">2.</span> <span class="toc-text">4.Python中声明变量和给变量赋值的基本原理：是先开辟空间将数据存起来，数据需要多大的内存空间就开辟多大的内存空间（动态语言）</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#求商，结果只保留整数部分"><span class="toc-number"></span> <span class="toc-text">//  -  求商，结果只保留整数部分</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#求余数"><span class="toc-number"></span> <span class="toc-text">%  - 求余数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#y求x得y次方"><span class="toc-number"></span> <span class="toc-text">   - y求x得y次方</span></a>
+              </li></div>
+              
+                <p>###一.Python常用的快捷键</p>
+<ul>
+<li><h5 id="Ctrl-s-保存"><a href="#Ctrl-s-保存" class="headerlink" title="Ctrl + s  - 保存"></a>Ctrl + s  - 保存</h5></li>
+<li><h5 id="Ctrl-注释和取消注释"><a href="#Ctrl-注释和取消注释" class="headerlink" title="Ctrl + /  -注释和取消注释"></a>Ctrl + /  -注释和取消注释</h5></li>
+<li><h5 id="Ctrl-b-sublime中的编译执行"><a href="#Ctrl-b-sublime中的编译执行" class="headerlink" title="Ctrl + b -sublime中的编译执行"></a>Ctrl + b -sublime中的编译执行</h5></li>
+<li><h5 id="Ctrl-c-复制，拷贝"><a href="#Ctrl-c-复制，拷贝" class="headerlink" title="Ctrl + c -复制，拷贝"></a>Ctrl + c -复制，拷贝</h5></li>
+<li><h5 id="Ctrl-v-粘贴"><a href="#Ctrl-v-粘贴" class="headerlink" title="Ctrl + v -粘贴"></a>Ctrl + v -粘贴</h5></li>
+<li><h5 id="Ctrl-a-全选"><a href="#Ctrl-a-全选" class="headerlink" title="Ctrl + a -全选"></a>Ctrl + a -全选</h5></li>
+<li><h5 id="Ctrl-z-撤销"><a href="#Ctrl-z-撤销" class="headerlink" title="Ctrl + z -撤销"></a>Ctrl + z -撤销</h5></li>
+<li><h5 id="Ctrl-shift-z-反撤销"><a href="#Ctrl-shift-z-反撤销" class="headerlink" title="Ctrl + shift + z -反撤销"></a>Ctrl + shift + z -反撤销</h5></li>
+<li><h5 id="Ctrl-x-剪切"><a href="#Ctrl-x-剪切" class="headerlink" title="Ctrl  + x -剪切"></a>Ctrl  + x -剪切</h5></li>
+<li><h5 id="Ctrl-f-查找"><a href="#Ctrl-f-查找" class="headerlink" title="Ctrl + f - 查找"></a>Ctrl + f - 查找</h5></li>
+<li><h5 id="Ctrl-r-运行收入"><a href="#Ctrl-r-运行收入" class="headerlink" title="Ctrl + r -运行收入"></a>Ctrl + r -运行收入</h5></li>
+<li><h5 id="按住Ctrl-不放点鼠标-多光标操作"><a href="#按住Ctrl-不放点鼠标-多光标操作" class="headerlink" title="按住Ctrl 不放点鼠标 -多光标操作"></a>按住Ctrl 不放点鼠标 -多光标操作</h5></li>
+<li><h5 id="按住shiftt不放点鼠标-选中制定范围"><a href="#按住shiftt不放点鼠标-选中制定范围" class="headerlink" title="按住shiftt不放点鼠标 -选中制定范围"></a>按住shiftt不放点鼠标 -选中制定范围</h5></li>
+<li>#####print 是Python 中的内置函数，功能是在控制台输出括号里面的内容。</li>
+<li>#####print(‘hello, world, 你好世界！’)</li>
+</ul>
+<hr>
+<hr>
+<p>###二.basic syntax</p>
+<p>###1.注释 </p>
+<ul>
+<li><h5 id="注释就是代码中不参与执行的说明性文字"><a href="#注释就是代码中不参与执行的说明性文字" class="headerlink" title="注释就是代码中不参与执行的说明性文字"></a>注释就是代码中不参与执行的说明性文字</h5></li>
+<li>当行注释: 在文字前加  #</li>
+<li>“””<br>多行注释：使用是三个单引号或者三个双引号引起来（一般使用双引号）<br>多行注释第一行<br>多行注释第二行<br>‘’’<br>‘’’</li>
+<li>“””</li>
+</ul>
+<hr>
+<p>###2.标识符</p>
+<p>#####①程序中专门用来命名的符号叫做标识符</p>
+<p>#####②Python中标识符的要求：所有标识符是由字母、数字和下划线组成，并且数字不能开头</p>
+<p>#####③注意：Python3.x中标识符可以包含中文，但是不建议这么使用</p>
+<p>#####④ 变量名 = 值</p>
+<hr>
+<p>###3.缩进</p>
+<p>#####① 一行代码前的空格叫做缩进，Python中的每个代码前缩进的个数是有规范的，不能随便出现缩进，也不能在该缩进的时候没有缩进。</p>
+<hr>
+<p>###4.关键字</p>
+<p>#####系统保留下来具有特殊功能或者特殊意义的标识符就是关键字(保留字)</p>
+<p>#####“”“</p>
+<blockquote>
+<h5 id="‘False’-‘None’-‘True’-‘and’-‘as’-‘assert’"><a href="#‘False’-‘None’-‘True’-‘and’-‘as’-‘assert’" class="headerlink" title="‘False’,    ‘None’,    ‘True’,      ‘and’,     ‘as’, ‘assert’,"></a>‘False’,    ‘None’,    ‘True’,      ‘and’,     ‘as’, ‘assert’,</h5><h5 id="‘break’-‘class’-‘continue’-‘def’-‘del’"><a href="#‘break’-‘class’-‘continue’-‘def’-‘del’" class="headerlink" title="‘break’,       ‘class’,         ‘continue’,   ‘def’,    ‘del’,"></a>‘break’,       ‘class’,         ‘continue’,   ‘def’,    ‘del’,</h5><h5 id="‘elif’-‘else’-‘except’-‘finally’-‘for’"><a href="#‘elif’-‘else’-‘except’-‘finally’-‘for’" class="headerlink" title="‘elif’,            ‘else’,           ‘except’,      ‘finally’,   ‘for’,"></a>‘elif’,            ‘else’,           ‘except’,      ‘finally’,   ‘for’,</h5><h5 id="‘from’-‘global’-‘if’-‘import’-‘in’-‘is’"><a href="#‘from’-‘global’-‘if’-‘import’-‘in’-‘is’" class="headerlink" title="‘from’,         ‘global’,       ‘if’,      ‘import’, ‘in’,    ‘is’,"></a>‘from’,         ‘global’,       ‘if’,      ‘import’, ‘in’,    ‘is’,</h5><h5 id="‘lambda’-‘nonlocal’-‘not’-‘or’-‘pass’"><a href="#‘lambda’-‘nonlocal’-‘not’-‘or’-‘pass’" class="headerlink" title="‘lambda’,    ‘nonlocal’,  ‘not’,     ‘or’, ‘pass’,"></a>‘lambda’,    ‘nonlocal’,  ‘not’,     ‘or’, ‘pass’,</h5><h5 id="‘raise’-‘return’-‘try’-‘while’-‘with’-‘yield’"><a href="#‘raise’-‘return’-‘try’-‘while’-‘with’-‘yield’" class="headerlink" title="‘raise’,         ‘return’,       ‘try’,    ‘while’,     ‘with’, ‘yield’"></a>‘raise’,         ‘return’,       ‘try’,    ‘while’,     ‘with’, ‘yield’</h5></blockquote>
+<p>#####”””<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">import keyword</span><br><span class="line">print(keyword,kwlist)</span><br></pre></td></tr></table></figure></p>
+<hr>
+<p>###5.常用的数据类型</p>
+<p>#####1.int - 整型(整数)，例如：10, -100, 123, 0  (Python2.x中有long)</p>
+<p>#####2.float - 浮点型(小数)，例如:112.7,3.1415926、-19.0 </p>
+<p>#####3.str-  字符串，例如: ‘今天天气真好啊！’ , ‘hello,123!’  ‘123’ 代表字符串123，应用如，手机号码，邮编。</p>
+<p>#####4.bool - 布尔，值只有True和False两个， True - 真、成立、肯定  False-  假、否定、不成立</p>
+<h2 id="5-list-列表-，dict-字典-，tuple-元祖-，set-、迭代器、生成器、funcation等"><a href="#5-list-列表-，dict-字典-，tuple-元祖-，set-、迭代器、生成器、funcation等" class="headerlink" title="#####5.list(列表)，dict(字典)，tuple(元祖)，set 、迭代器、生成器、funcation等"></a>#####5.list(列表)，dict(字典)，tuple(元祖)，set 、迭代器、生成器、funcation等</h2><p>###6.两个常用的内置函数 ：print(),  input()</p>
+<p>#####a.输出函数：print() -在控制台输出括号里面的内容  print(变量)， print(数据)， print(数据1，数据2， 数据3)，<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">num = 120</span><br><span class="line">int = 1200</span><br><span class="line">message = &apos;你好吗？&apos;</span><br><span class="line">print(num)</span><br><span class="line">print(message)</span><br><span class="line">print(1000,&apos;abc&apos;,message,True)</span><br></pre></td></tr></table></figure></p>
+<p>同时输出多个数据,注意：一个print打印的数据占一行，如果一个print同时打印多个数据，多个数据之间显示的时候是用空格隔开的。</p>
+<p>#####b.输入函数：input()  -从输入设置上获取输入的内容到程序中。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">result = input(&apos;请输入账号：&apos;)</span><br><span class="line">password = input(&apos;请输入密码:&apos;)</span><br><span class="line">print(&apos;结果:&apos;,result,password)</span><br><span class="line">print(3.14)</span><br></pre></td></tr></table></figure></p>
+<hr>
+<h5 id="注意：当程序执行到input函数的时候，程序会停下来等待输入完成后才会接着往下执行（线程阻塞）"><a href="#注意：当程序执行到input函数的时候，程序会停下来等待输入完成后才会接着往下执行（线程阻塞）" class="headerlink" title="注意：当程序执行到input函数的时候，程序会停下来等待输入完成后才会接着往下执行（线程阻塞）"></a>注意：当程序执行到input函数的时候，程序会停下来等待输入完成后才会接着往下执行（线程阻塞）</h5><p>#####练习：写程序用来收集一个人的姓名和年龄，并且将收集到的结果打印出来<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">name = input(&apos;请输入姓名&apos;)</span><br><span class="line">age = input(&apos;请输入年龄:&apos;)</span><br><span class="line">print(&apos;姓名&apos;,name,&apos;年龄&apos;,age)</span><br></pre></td></tr></table></figure></p>
+<hr>
+<hr>
+<p>###三.variable</p>
+<p>#####1.什么是变量<br> 1.什么是变量<br> 变量是用来在内存中开辟空间保存数据的</p>
+<p>#####2.怎么声明/定义变量<br> 语法：变量名 = 数据<br> 说明：a。变量名 -  标识符 ，并且不能是关键字  (要求！)<br>        见名知义(看到变量大概能知道这个变量中存的什么数据)  (规范！)<br>       所有字母都小写，如果变量名是由多个单词组成，单词之间用下划线_隔开。<br>      b. =  -  赋值符号，将赋值符号右边的数据赋给左边的变量(左边必须是变量)</p>
+<pre><code>c.数据 - 数据可以是不同类型的值，也可以是已经声明过的变量或者运算表达式。
+</code></pre><hr>
+<h5 id="True-10-SyntaxError-can’t-assign-to-keyword"><a href="#True-10-SyntaxError-can’t-assign-to-keyword" class="headerlink" title="True = 10  # SyntaxError: can’t assign to keyword"></a>True = 10  # SyntaxError: can’t assign to keyword</h5><p>#####student_name 如果变量名是由多个单词组成，单词之间用下划线_隔开。<br>student_name = ‘小明’<br>声明一个变量叫num，并且给它赋值为10(这个变量中的数据是10)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">num = 10</span><br><span class="line">num2 = 12.5</span><br><span class="line">num3 = num</span><br></pre></td></tr></table></figure></p>
+<p>声明一个变量num3，并且将num中保存的值赋给num3</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">print(num) </span><br><span class="line">num4 = 10 + 12 </span><br><span class="line">print(num4)</span><br><span class="line">num = 100</span><br><span class="line">print(num)</span><br></pre></td></tr></table></figure>
+<h2 id="已经声明过的变量可以重新赋值，新赋的值会覆盖原来的值"><a href="#已经声明过的变量可以重新赋值，新赋的值会覆盖原来的值" class="headerlink" title="#####已经声明过的变量可以重新赋值，新赋的值会覆盖原来的值"></a>#####已经声明过的变量可以重新赋值，新赋的值会覆盖原来的值</h2><h5 id="3-同时声明多个变量"><a href="#3-同时声明多个变量" class="headerlink" title="3.同时声明多个变量"></a>3.同时声明多个变量</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">print(a,b,c)</span><br><span class="line">print(a1, b1, c1)</span><br></pre></td></tr></table></figure>
+<hr>
+<h5 id="4-Python中声明变量和给变量赋值的基本原理：是先开辟空间将数据存起来，数据需要多大的内存空间就开辟多大的内存空间（动态语言）"><a href="#4-Python中声明变量和给变量赋值的基本原理：是先开辟空间将数据存起来，数据需要多大的内存空间就开辟多大的内存空间（动态语言）" class="headerlink" title="4.Python中声明变量和给变量赋值的基本原理：是先开辟空间将数据存起来，数据需要多大的内存空间就开辟多大的内存空间（动态语言）"></a>4.Python中声明变量和给变量赋值的基本原理：是先开辟空间将数据存起来，数据需要多大的内存空间就开辟多大的内存空间（动态语言）</h5><p> “””<br>8位(bit) = 1字节(byte)<br>1024字节 = 1kb<br>1024kb = 1Mb<br>1024Mb = 1Gb<br>1024Gb = 1T<br>“””</p>
+<hr>
+<hr>
+<p>###四.operator</p>
+<p>#####1.支持的运算符有：数学运算、比较、赋值、(位运算)<br>1.数学运算符：+(加)， -(减)， <em> (乘)， /(除)， //(整除)，%(取余)， </em> * (幂)</p>
+<ol start="2">
+<li>前面的+,-,<em>,/和数学中的加减乘除的功能一模一样<br>print(100+11)  #111<br>print(100-11)  #89<br>print(8</em>9)     #72<br>print(5/2)     #2.5</li>
+</ol>
+<ul>
+<li><h4 id="求商，结果只保留整数部分"><a href="#求商，结果只保留整数部分" class="headerlink" title="//  -  求商，结果只保留整数部分"></a>//  -  求商，结果只保留整数部分</h4>print(5//2)    #2<br>print(4.2//2)  #2 运算对象不同结果的形式就不同</li>
+</ul>
+<ul>
+<li><h4 id="求余数"><a href="#求余数" class="headerlink" title="%  - 求余数"></a>%  - 求余数</h4><figure class="highlight plain"><figcaption><span>#1</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">print(8%3)     #2</span><br><span class="line">print(8%8)     #0</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="y求x得y次方"><a href="#y求x得y次方" class="headerlink" title="   - y求x得y次方"></a><strong>   - </strong>y求x得y次方</h4><figure class="highlight plain"><figcaption><span>** 3)  #2的3次方 8</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">print(10 ** 4) #10的4次方 10000</span><br><span class="line">print(19 + 23 * 2 - 10 / 5)    #63 先算乘除再算加减</span><br><span class="line">print(2*3**3)                  #54 先算幂再算乘法</span><br><span class="line">print(19 + 23 *(2-10) / 5)     #先算括号里面的</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+
+              
+            </div>
+            <footer class="article-footer">
+              <a href="/2018/11/19/day2/" class="article-date">
+  <time datetime="2018-11-19T15:58:18.000Z" itemprop="datePublished">2018-11-19</time>
+</a>
+              <a data-url="http://yoursite.com/2018/11/19/day2/" data-id="cjuf6f6qp0001bgve937ft2ak" class="article-share-link">Share</a>
+              
+              
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/PEP8/">PEP8</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python/">Python</a></li></ul>
+
+            </footer>
+      </div>
+      
+        
+<nav id="article-nav">
+  
+    <a href="/2018/11/19/day1.# 我是一个文档/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          PEP8代码风格指南
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2018/11/19/day3/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">PEP8代码风格指南</div>
+    </a>
+  
+</nav>
+
+      
+    </article>
+    <script type="text/javascript">
+      window.onscroll = function(){ 
+        $(function(){
+          var $toc = $('.page-toc'),
+              $article = $('.article-entry')
+              toc_top = $toc.offset().top
+              tocsub_width = $toc.children().width()
+              article_height = $article.children().height()
+              scroll_top = document.body.scrollTop
+              screen_h = $(window).height()
+              footer_top = $('.article-footer').offset().top - $(window).height()
+              if(toc_top&&scroll_top&&scroll_top>toc_top&&scroll_top<footer_top){
+                $toc.children().css({
+                  "position": "fixed",
+                  "height": (screen_h -20)+'px',
+                  "overflow": "auto"
+                })
+                $article.css('margin-right',tocsub_width+'px')
+              }else{
+                $toc.children().css({
+                  "position": "relative",
+                  "height":'inherit',
+                  "overflow": "auto"
+                })
+                $article.css('margin-right',0+'px')
+              }
+        })
+      } 
+    </script>
+
+
+
+
+
+
+
+
+		</div>
+		
+
+<footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+        <div class="left">
+            &copy; 2019 林肖的技术专栏<br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and Theme by <a href="https://github.com/jaywcjlove/hexoThemeKacper">hexoThemeKacper </a>
+        </div>
+        <div class="right">
+            
+        </div>
+    </div>
+  </div>
+</footer>
+<script src="//cdn.bootcss.com/jquery/2.0.3/jquery.min.js"></script>
+
+
+<script type="text/javascript">
+$(function(){
+  var $img = $('.article-entry img'),
+      $link = $img.css({
+        "display":"inline-block"
+      }).parent()
+
+  if($link.parent().is("a")){
+      $img.each(function(idx,item) {
+      $(this).parent().attr('href',$(this).parent().parent().attr('href'))
+    })
+  }
+})
+</script>
+
+
+<script src="/js/script.js"></script>
+
+  	</div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/API" class="mobile-nav-link">API</a>
+  
+    <a href="/tags" class="mobile-nav-link">Tags</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+    <a href="https://github.com/JSLite/JSLite" class="mobile-nav-link">Github</a>
+  
+</nav>
+    
+</div>
+</body>
+</html>
+
